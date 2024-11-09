@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume with Hide/Show Skills</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>John Doe</h1>
+            <p>Email: john@example.com | Phone: 123-456-7890</p>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Experienced software developer with a background in JavaScript, HTML, CSS, and modern front-end frameworks.</p>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            <p><strong>Software Developer</strong> at Tech Solutions Inc. (2019 - Present)</p>
+            <p>Developed front-end applications using React, built APIs with Node.js, and led a team of junior developers.</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p><strong>Bachelor of Science in Computer Science</strong>, State University (2012 - 2016)</p>
+        </section>
+
+        <!-- Skills Section with Hide/Show Button -->
+        <section>
+            <h2>Skills</h2>
+            <button id="toggleSkillsBtn" onclick="toggleSkills()">Hide Skills</button>
+            <ul id="skills">
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
